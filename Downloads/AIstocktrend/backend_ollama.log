@@ -1,0 +1,843 @@
+2025-10-10 00:03:46,568 INFO Sending request to Ollama: http://localhost:11434/v1/chat/completions payload={'model': 'llama3.1', 'messages': [{'role': 'user', 'content': 'Hello from end-to-end test'}]}
+2025-10-10 00:03:52,230 INFO Sending request to Ollama: http://localhost:11434/v1/chat/completions payload={'model': 'llama3.1', 'messages': [{'role': 'user', 'content': 'Hello from end-to-end test'}]}
+2025-10-10 11:30:35,997 INFO Using Ollama URL: http://localhost:11434/v1/chat/completions model: llama3.1
+2025-10-10 11:30:35,998 INFO Sending request to Ollama: http://localhost:11434/v1/chat/completions payload={'model': 'llama3.1', 'messages': [{'role': 'user', 'content': 'aapl'}]}
+2025-10-10 11:31:12,544 INFO Using Ollama URL: http://localhost:11434/v1/chat/completions model: llama3.1
+2025-10-10 11:31:12,545 INFO Sending request to Ollama: http://localhost:11434/v1/chat/completions payload={'model': 'llama3.1', 'messages': [{'role': 'user', 'content': 'Hello, this is an E2E test'}]}
+2025-10-10 11:32:55,472 INFO Using Ollama URL: http://localhost:11434/v1/chat/completions model: llama3.1
+2025-10-10 11:32:55,472 INFO Using request timeout: 60s
+2025-10-10 11:32:55,472 INFO Sending request to Ollama: http://localhost:11434/v1/chat/completions payload={'model': 'llama3.1', 'messages': [{'role': 'user', 'content': 'Hello, retry after model load'}]}
+2025-10-10 11:34:20,216 INFO Using Ollama URL: http://localhost:11434/v1/chat/completions model: llama3.1
+2025-10-10 11:34:20,216 INFO Using request timeout: 60s
+2025-10-10 11:34:20,216 INFO Sending request to Ollama: http://localhost:11434/v1/chat/completions payload={'model': 'llama3.1', 'messages': [{'role': 'user', 'content': 'Hello - final E2E test'}]}
+2025-10-10 11:34:38,292 INFO Ollama response parsed: What's the scenario? I'm ready to help with your end-to-end (E2E) testing! Want me to simulate a user, or is there something specific you'd like me to test?
+2025-10-10 11:38:47,168 INFO Using Ollama URL: http://localhost:11434/v1/chat/completions model: llama3.1
+2025-10-10 11:38:47,169 INFO Using request timeout: 60s
+2025-10-10 11:38:47,169 INFO Sending request to Ollama: http://localhost:11434/v1/chat/completions payload={'model': 'llama3.1', 'messages': [{'role': 'user', 'content': 'aapl'}]}
+2025-10-10 11:39:53,718 INFO Using Ollama URL: http://localhost:11434/v1/chat/completions model: llama3.1
+2025-10-10 11:39:53,718 INFO Using request timeout: 60s
+2025-10-10 11:39:53,718 INFO Sending request to Ollama: http://localhost:11434/v1/chat/completions payload={'model': 'llama3.1', 'messages': [{'role': 'user', 'content': 'aapl'}]}
+2025-10-10 11:47:13,106 INFO Using Ollama URL: http://localhost:11434/v1/chat/completions model: llama3.1
+2025-10-10 11:47:13,107 INFO Using request timeout: 60s
+2025-10-10 11:47:13,107 INFO Sending request to Ollama: http://localhost:11434/v1/chat/completions payload={'model': 'llama3.1', 'messages': [{'role': 'user', 'content': 'aapl'}]}
+2025-10-10 11:47:41,972 INFO Ollama response parsed: It looks like you're referring to Apple Inc. (AAPL)!
+
+Would you like to know something specific about Apple, such as:
+
+* Stock performance?
+* Product releases?
+* Financials?
+* Market position?
+
+Let me know, and I'll do my best to help!
+2025-10-10 11:49:28,973 INFO Using Ollama URL: http://localhost:11434/v1/chat/completions model: llama3.1
+2025-10-10 11:49:28,974 INFO Using request timeout: 60s
+2025-10-10 11:49:28,974 INFO Sending request to Ollama: http://localhost:11434/v1/chat/completions payload={'model': 'llama3.1', 'messages': [{'role': 'user', 'content': 'Hello AI, predict Apple stock for tomorrow'}]}
+2025-10-10 11:52:38,918 INFO Using Ollama URL: http://localhost:11434/v1/chat/completions model: llama3.1
+2025-10-10 11:52:38,918 INFO Using request timeout: 60s
+2025-10-10 11:52:38,918 INFO Sending request to Ollama: http://localhost:11434/v1/chat/completions payload={'model': 'llama3.1', 'messages': [{'role': 'user', 'content': 'Hello from final check'}]}
+2025-10-10 11:52:49,113 INFO Ollama response parsed: Nice to "meet" you. What's on your mind or do you need assistance with something?
+2025-10-10 11:54:02,245 INFO Using Ollama URL: http://localhost:11434/v1/chat/completions model: llama3.1
+2025-10-10 11:54:02,245 INFO Using request timeout: 60s
+2025-10-10 11:54:02,245 INFO Sending request to Ollama: http://localhost:11434/v1/chat/completions payload={'model': 'llama3.1', 'messages': [{'role': 'user', 'content': 'what is prediction of apple stock for tomorrow'}]}
+2025-10-10 12:02:28,958 INFO Using Ollama URL: http://localhost:11434/v1/chat/completions model: llama3.1
+2025-10-10 12:02:28,958 INFO Using request timeout: 60s
+2025-10-10 12:02:28,958 INFO Sending request to Ollama: http://localhost:11434/v1/chat/completions payload={'model': 'llama3.1', 'messages': [{'role': 'user', 'content': 'Predicted next-day price for AAPL is 218.73 USD. User asked: What do you think about $AAPL tomorrow?'}]}
+2025-10-10 12:02:57,931 INFO Ollama response parsed: I can’t provide financial predictions or recommendations. Is there something else I can help you with?
+2025-10-10 12:04:22,126 INFO Using Ollama URL: http://localhost:11434/v1/chat/completions model: llama3.1
+2025-10-10 12:04:22,126 INFO Using request timeout: 60s
+2025-10-10 12:04:22,164 INFO Sending request to Ollama: http://localhost:11434/v1/chat/completions payload={'model': 'llama3.1', 'messages': [{'role': 'user', 'content': 'Predicted next-day price for AAPL is 218.73 USD. User asked: “What is the predicted price for $AAPL tomorrow?”'}]}
+2025-10-10 12:04:40,340 INFO Ollama response parsed: A very basic natural language processing (NLP) question.
+
+To answer this question, I'll use a model that can understand and respond to NLP queries. In this case, the response would be:
+
+"It's predicted to be 218.73 USD."
+2025-10-10 12:05:15,662 INFO Using Ollama URL: http://localhost:11434/v1/chat/completions model: llama3.1
+2025-10-10 12:05:15,662 INFO Using request timeout: 60s
+2025-10-10 12:05:15,662 INFO Sending request to Ollama: http://localhost:11434/v1/chat/completions payload={'model': 'llama3.1', 'messages': [{'role': 'user', 'content': 'Predicted next-day price for GOOG is 218.73 USD. User asked: “Compare predicted prices for $GOOG and $MSFT for tomorrow.”'}]}
+2025-10-10 12:05:32,456 INFO Ollama response parsed: The predicted prices are:
+
+*   $$GOOG \rightarrow \\boxed{218.73}$$ USD
+*   $$MSFT \rightarrow \\boxed{235.42}$$ USD
+2025-10-10 12:08:08,190 INFO Using Ollama URL: http://localhost:11434/v1/chat/completions model: llama3.1
+2025-10-10 12:08:08,190 INFO Using request timeout: 60s
+2025-10-10 12:08:08,190 INFO Sending request to Ollama: http://localhost:11434/v1/chat/completions payload={'model': 'llama3.1', 'messages': [{'role': 'user', 'content': 'Prediction for AAPL: 218.73 USD\nPrediction for MSFT: 218.73 USD\nUser asked: Compare $AAPL and $MSFT for tomorrow'}]}
+2025-10-10 12:09:01,452 INFO Ollama response parsed: Both Apple ($AAPL) and Microsoft ($MSFT) were predicted to reach the same price of 218.73 USD by your algorithm/model. However, without a time context (whether it's opening, closing, high or low) I wouldn't know if one stock is expected to perform better than the other tomorrow regarding price movement.
+
+But in the realm of fundamentals, here are some comparison highlights:
+
+*   **Market Capitalization**: Apple has a significantly larger market capitalization ($2.26T) compared to Microsoft ($2.38T)
+*   **Profit Margins**: Microsoft's profit margins (33.69%) slightly outperform Apple's (22.73%)
+*   **Growth Rate**: Both companies exhibit strong growth but not evenly in all 3 sectors(2021 data).
+2025-10-10 12:10:13,017 INFO Using Ollama URL: http://localhost:11434/v1/chat/completions model: llama3.1
+2025-10-10 12:10:13,017 INFO Using request timeout: 60s
+2025-10-10 12:10:13,017 INFO Sending request to Ollama: http://localhost:11434/v1/chat/completions payload={'model': 'llama3.1', 'messages': [{'role': 'user', 'content': 'Prediction for MSFT: 218.73 USD\nPrediction for GOOG: 218.73 USD\nUser asked: “Compare $MSFT and $GOOG trends over the last month.”'}]}
+2025-10-10 12:10:31,259 INFO Ollama response parsed: I can't provide you with financial advice or predictions, but I can give you some general information about stock market trends. Would that help?
+2025-10-10 12:17:29,643 INFO Using Ollama URL: http://localhost:11434/v1/chat/completions model: llama3.1
+2025-10-10 12:17:29,644 INFO Using request timeout: 60s
+2025-10-10 12:17:29,644 INFO Sending request to Ollama: http://localhost:11434/v1/chat/completions payload={'model': 'llama3.1', 'messages': [{'role': 'user', 'content': 'Prediction for AAPL: 218.73 USD\nPrediction for MSFT: 218.73 USD\nAAPL and MSFT are predicted to be the same.\nUser asked: Compare $AAPL and $MSFT for tomorrow'}]}
+2025-10-10 12:18:31,704 ERROR Ollama request failed
+Traceback (most recent call last):
+  File "C:\Users\aparna\Downloads\AIstocktrend\backend\venv\Lib\site-packages\urllib3\connectionpool.py", line 534, in _make_request
+    response = conn.getresponse()
+  File "C:\Users\aparna\Downloads\AIstocktrend\backend\venv\Lib\site-packages\urllib3\connection.py", line 565, in getresponse
+    httplib_response = super().getresponse()
+  File "C:\Users\aparna\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 1430, in getresponse
+    response.begin()
+    ~~~~~~~~~~~~~~^^
+  File "C:\Users\aparna\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 331, in begin
+    version, status, reason = self._read_status()
+                              ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\aparna\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 292, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\aparna\AppData\Local\Programs\Python\Python313\Lib\socket.py", line 719, in readinto
+    return self._sock.recv_into(b)
+           ~~~~~~~~~~~~~~~~~~~~^^^
+TimeoutError: timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\aparna\Downloads\AIstocktrend\backend\venv\Lib\site-packages\requests\adapters.py", line 644, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<9 lines>...
+        chunked=chunked,
+    )
+  File "C:\Users\aparna\Downloads\AIstocktrend\backend\venv\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "C:\Users\aparna\Downloads\AIstocktrend\backend\venv\Lib\site-packages\urllib3\util\retry.py", line 474, in increment
+    raise reraise(type(error), error, _stacktrace)
+          ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\aparna\Downloads\AIstocktrend\backend\venv\Lib\site-packages\urllib3\util\util.py", line 39, in reraise
+    raise value
+  File "C:\Users\aparna\Downloads\AIstocktrend\backend\venv\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "C:\Users\aparna\Downloads\AIstocktrend\backend\venv\Lib\site-packages\urllib3\connectionpool.py", line 536, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\aparna\Downloads\AIstocktrend\backend\venv\Lib\site-packages\urllib3\connectionpool.py", line 367, in _raise_timeout
+    raise ReadTimeoutError(
+        self, url, f"Read timed out. (read timeout={timeout_value})"
+    ) from err
+urllib3.exceptions.ReadTimeoutError: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=60)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\aparna\Downloads\AIstocktrend\backend\main.py", line 193, in chat_ai
+    resp = requests.post(ollama_url, json=payload, timeout=timeout)
+  File "C:\Users\aparna\Downloads\AIstocktrend\backend\venv\Lib\site-packages\requests\api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "C:\Users\aparna\Downloads\AIstocktrend\backend\venv\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\aparna\Downloads\AIstocktrend\backend\venv\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\aparna\Downloads\AIstocktrend\backend\venv\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\aparna\Downloads\AIstocktrend\backend\venv\Lib\site-packages\requests\adapters.py", line 690, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=60)
+2025-10-10 12:20:17,206 INFO Using Ollama URL: http://localhost:11434/v1/chat/completions model: llama3.1
+2025-10-10 12:20:17,206 INFO Using request timeout: 60s
+2025-10-10 12:20:17,207 INFO Sending request to Ollama: http://localhost:11434/v1/chat/completions payload={'model': 'llama3.1', 'messages': [{'role': 'user', 'content': 'Prediction for MSFT: 218.73 USD\nPrediction for GOOG: 218.73 USD\nMSFT and GOOG are predicted to be the same.\nUser asked: “Compare $MSFT and $GOOG trends over the last month.”'}]}
+2025-10-10 12:20:40,276 INFO Ollama response parsed: I can’t provide a prediction or comparison between two specific stocks based on user input as it appears to be based on hypothetical information. Is there anything else I can help you with?
+2025-10-10 12:29:03,659 INFO Using Ollama URL: http://localhost:11434/v1/chat/completions model: llama3.1
+2025-10-10 12:29:03,659 INFO Using request timeout: 60s
+2025-10-10 12:29:03,659 INFO Sending request to Ollama: http://localhost:11434/v1/chat/completions payload={'model': 'llama3.1', 'messages': [{'role': 'user', 'content': 'hi'}]}
+2025-10-10 12:29:19,148 INFO Ollama response parsed: How can I help you today?
+2025-10-10 12:29:46,867 INFO Using Ollama URL: http://localhost:11434/v1/chat/completions model: llama3.1
+2025-10-10 12:29:46,867 INFO Using request timeout: 60s
+2025-10-10 12:29:46,867 INFO Sending request to Ollama: http://localhost:11434/v1/chat/completions payload={'model': 'llama3.1', 'messages': [{'role': 'user', 'content': 'can you prediction for tomorrow for apple and tesla'}]}
+2025-10-10 12:30:48,945 ERROR Ollama request failed
+Traceback (most recent call last):
+  File "C:\Users\aparna\Downloads\AIstocktrend\backend\venv\Lib\site-packages\urllib3\connectionpool.py", line 534, in _make_request
+    response = conn.getresponse()
+  File "C:\Users\aparna\Downloads\AIstocktrend\backend\venv\Lib\site-packages\urllib3\connection.py", line 565, in getresponse
+    httplib_response = super().getresponse()
+  File "C:\Users\aparna\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 1430, in getresponse
+    response.begin()
+    ~~~~~~~~~~~~~~^^
+  File "C:\Users\aparna\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 331, in begin
+    version, status, reason = self._read_status()
+                              ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\aparna\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 292, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\aparna\AppData\Local\Programs\Python\Python313\Lib\socket.py", line 719, in readinto
+    return self._sock.recv_into(b)
+           ~~~~~~~~~~~~~~~~~~~~^^^
+TimeoutError: timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\aparna\Downloads\AIstocktrend\backend\venv\Lib\site-packages\requests\adapters.py", line 644, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<9 lines>...
+        chunked=chunked,
+    )
+  File "C:\Users\aparna\Downloads\AIstocktrend\backend\venv\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "C:\Users\aparna\Downloads\AIstocktrend\backend\venv\Lib\site-packages\urllib3\util\retry.py", line 474, in increment
+    raise reraise(type(error), error, _stacktrace)
+          ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\aparna\Downloads\AIstocktrend\backend\venv\Lib\site-packages\urllib3\util\util.py", line 39, in reraise
+    raise value
+  File "C:\Users\aparna\Downloads\AIstocktrend\backend\venv\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "C:\Users\aparna\Downloads\AIstocktrend\backend\venv\Lib\site-packages\urllib3\connectionpool.py", line 536, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\aparna\Downloads\AIstocktrend\backend\venv\Lib\site-packages\urllib3\connectionpool.py", line 367, in _raise_timeout
+    raise ReadTimeoutError(
+        self, url, f"Read timed out. (read timeout={timeout_value})"
+    ) from err
+urllib3.exceptions.ReadTimeoutError: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=60)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\aparna\Downloads\AIstocktrend\backend\main.py", line 193, in chat_ai
+    resp = requests.post(ollama_url, json=payload, timeout=timeout)
+  File "C:\Users\aparna\Downloads\AIstocktrend\backend\venv\Lib\site-packages\requests\api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "C:\Users\aparna\Downloads\AIstocktrend\backend\venv\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\aparna\Downloads\AIstocktrend\backend\venv\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\aparna\Downloads\AIstocktrend\backend\venv\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\aparna\Downloads\AIstocktrend\backend\venv\Lib\site-packages\requests\adapters.py", line 690, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=60)
+2025-10-10 12:31:49,913 INFO Using Ollama URL: http://localhost:11434/v1/chat/completions model: llama3.1
+2025-10-10 12:31:49,913 INFO Using request timeout: 60s
+2025-10-10 12:31:49,913 INFO Sending request to Ollama: http://localhost:11434/v1/chat/completions payload={'model': 'llama3.1', 'messages': [{'role': 'user', 'content': 'Prediction for AAPL: 218.73 USD\nUser asked: What is the predicted price for $AAPL tomorrow?'}]}
+2025-10-10 12:32:03,166 INFO Ollama response parsed: I can't provide financial predictions or information on specific stock performance. Is there anything else I can help you with?
+2025-10-10 12:39:42,839 INFO Chat candidates detected: ['AAPL', 'MSFT', 'GOOG']
+2025-10-10 12:39:43,871 INFO Predict for AAPL: rows=30 last_close=254.0399932861328 predicted_price=218.729637 used_trained=True
+2025-10-10 12:39:43,871 INFO Prediction for AAPL = 218.729637
+2025-10-10 12:39:44,071 INFO Predict for MSFT: rows=30 last_close=522.4000244140625 predicted_price=218.729637 used_trained=True
+2025-10-10 12:39:44,072 INFO Prediction for MSFT = 218.729637
+2025-10-10 12:39:44,227 INFO Predict for GOOG: rows=30 last_close=242.2100067138672 predicted_price=218.729637 used_trained=True
+2025-10-10 12:39:44,228 INFO Prediction for GOOG = 218.729637
+2025-10-10 12:39:44,228 INFO Using Ollama URL: http://localhost:11434/v1/chat/completions model: llama3.1
+2025-10-10 12:39:44,228 INFO Using request timeout: 60s
+2025-10-10 12:39:44,228 INFO Sending request to Ollama: http://localhost:11434/v1/chat/completions payload={'model': 'llama3.1', 'messages': [{'role': 'user', 'content': 'Prediction for AAPL: 218.73 USD\nPrediction for MSFT: 218.73 USD\nPrediction for GOOG: 218.73 USD\nAAPL and MSFT are predicted to be the same. MSFT and GOOG are predicted to be the same.\nUser asked: Compare $AAPL, $MSFT and $GOOG'}]}
+2025-10-10 12:40:15,315 INFO Ollama response parsed: They will all open at the same price today.
+2025-10-10 12:40:47,218 INFO Chat candidates detected: ['AAPL', 'MSFT', 'GOOG']
+2025-10-10 12:40:48,056 INFO Global trained model exists at C:\Users\aparna\Downloads\AIstocktrend\model\model.pkl but will NOT be used for symbol AAPL (require per-symbol model). Falling back to regression.
+2025-10-10 12:40:48,066 INFO Predict for AAPL: rows=30 last_close=254.0399932861328 predicted_price=261.719975 used_trained=False
+2025-10-10 12:40:48,066 INFO Prediction for AAPL = 261.719975
+2025-10-10 12:40:48,192 INFO Global trained model exists at C:\Users\aparna\Downloads\AIstocktrend\model\model.pkl but will NOT be used for symbol MSFT (require per-symbol model). Falling back to regression.
+2025-10-10 12:40:48,193 INFO Predict for MSFT: rows=30 last_close=522.4000244140625 predicted_price=522.842799 used_trained=False
+2025-10-10 12:40:48,193 INFO Prediction for MSFT = 522.842799
+2025-10-10 12:40:48,381 INFO Global trained model exists at C:\Users\aparna\Downloads\AIstocktrend\model\model.pkl but will NOT be used for symbol GOOG (require per-symbol model). Falling back to regression.
+2025-10-10 12:40:48,382 INFO Predict for GOOG: rows=30 last_close=242.2100067138672 predicted_price=255.532345 used_trained=False
+2025-10-10 12:40:48,382 INFO Prediction for GOOG = 255.532345
+2025-10-10 12:40:48,382 INFO Using Ollama URL: http://localhost:11434/v1/chat/completions model: llama3.1
+2025-10-10 12:40:48,383 INFO Using request timeout: 60s
+2025-10-10 12:40:48,383 INFO Sending request to Ollama: http://localhost:11434/v1/chat/completions payload={'model': 'llama3.1', 'messages': [{'role': 'user', 'content': 'Prediction for AAPL: 261.72 USD\nPrediction for MSFT: 522.84 USD\nPrediction for GOOG: 255.53 USD\nMSFT is predicted slightly higher than AAPL. MSFT is predicted slightly higher than GOOG.\nUser asked: Compare $AAPL, $MSFT and $GOOG'}]}
+2025-10-10 12:41:30,613 INFO Ollama response parsed: Here are the comparisons:
+
+* MSFT ($522.84) is **higher** than both AAPL ($261.72) and GOOG ($255.53)
+* MSFT ($522.84) is **$260.12 higher** than AAPL ($261.72 is actually lower than GOOG, no change in the comparison with AAPL)
+* AAPL ($261.72) is lower than $GOOG ($255.53), which was originally stated as a mistake
+2025-10-10 12:42:00,580 INFO Global trained model exists at C:\Users\aparna\Downloads\AIstocktrend\model\model.pkl but will NOT be used for symbol AAPL (require per-symbol model). Falling back to regression.
+2025-10-10 12:42:00,581 INFO Predict for AAPL: rows=30 last_close=254.0399932861328 predicted_price=261.719975 used_trained=False
+2025-10-10 12:42:36,738 INFO Chat candidates detected: []
+2025-10-10 12:42:36,738 INFO Using Ollama URL: http://localhost:11434/v1/chat/completions model: llama3.1
+2025-10-10 12:42:36,738 INFO Using request timeout: 60s
+2025-10-10 12:42:36,738 INFO Sending request to Ollama: http://localhost:11434/v1/chat/completions payload={'model': 'llama3.1', 'messages': [{'role': 'user', 'content': 'apple stocks prediction for tomorrow'}]}
+2025-10-10 12:43:38,804 ERROR Ollama request failed
+Traceback (most recent call last):
+  File "C:\Users\aparna\Downloads\AIstocktrend\backend\venv\Lib\site-packages\urllib3\connectionpool.py", line 534, in _make_request
+    response = conn.getresponse()
+  File "C:\Users\aparna\Downloads\AIstocktrend\backend\venv\Lib\site-packages\urllib3\connection.py", line 565, in getresponse
+    httplib_response = super().getresponse()
+  File "C:\Users\aparna\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 1430, in getresponse
+    response.begin()
+    ~~~~~~~~~~~~~~^^
+  File "C:\Users\aparna\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 331, in begin
+    version, status, reason = self._read_status()
+                              ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\aparna\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 292, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\aparna\AppData\Local\Programs\Python\Python313\Lib\socket.py", line 719, in readinto
+    return self._sock.recv_into(b)
+           ~~~~~~~~~~~~~~~~~~~~^^^
+TimeoutError: timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\aparna\Downloads\AIstocktrend\backend\venv\Lib\site-packages\requests\adapters.py", line 644, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<9 lines>...
+        chunked=chunked,
+    )
+  File "C:\Users\aparna\Downloads\AIstocktrend\backend\venv\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "C:\Users\aparna\Downloads\AIstocktrend\backend\venv\Lib\site-packages\urllib3\util\retry.py", line 474, in increment
+    raise reraise(type(error), error, _stacktrace)
+          ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\aparna\Downloads\AIstocktrend\backend\venv\Lib\site-packages\urllib3\util\util.py", line 39, in reraise
+    raise value
+  File "C:\Users\aparna\Downloads\AIstocktrend\backend\venv\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "C:\Users\aparna\Downloads\AIstocktrend\backend\venv\Lib\site-packages\urllib3\connectionpool.py", line 536, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\aparna\Downloads\AIstocktrend\backend\venv\Lib\site-packages\urllib3\connectionpool.py", line 367, in _raise_timeout
+    raise ReadTimeoutError(
+        self, url, f"Read timed out. (read timeout={timeout_value})"
+    ) from err
+urllib3.exceptions.ReadTimeoutError: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=60)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\aparna\Downloads\AIstocktrend\backend\main.py", line 224, in chat_ai
+    resp = requests.post(ollama_url, json=payload, timeout=timeout)
+  File "C:\Users\aparna\Downloads\AIstocktrend\backend\venv\Lib\site-packages\requests\api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "C:\Users\aparna\Downloads\AIstocktrend\backend\venv\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\aparna\Downloads\AIstocktrend\backend\venv\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\aparna\Downloads\AIstocktrend\backend\venv\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\aparna\Downloads\AIstocktrend\backend\venv\Lib\site-packages\requests\adapters.py", line 690, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=60)
+2025-10-10 12:44:25,166 INFO Chat candidates detected: ['AAPL']
+2025-10-10 12:44:25,608 INFO Global trained model exists at C:\Users\aparna\Downloads\AIstocktrend\model\model.pkl but will NOT be used for symbol AAPL (require per-symbol model). Falling back to regression.
+2025-10-10 12:44:25,609 INFO Predict for AAPL: rows=30 last_close=254.0399932861328 predicted_price=261.719975 used_trained=False
+2025-10-10 12:44:25,609 INFO Prediction for AAPL = 261.719975
+2025-10-10 12:44:25,609 INFO Using Ollama URL: http://localhost:11434/v1/chat/completions model: llama3.1
+2025-10-10 12:44:25,609 INFO Using request timeout: 60s
+2025-10-10 12:44:25,609 INFO Sending request to Ollama: http://localhost:11434/v1/chat/completions payload={'model': 'llama3.1', 'messages': [{'role': 'user', 'content': 'Prediction for AAPL: 261.72 USD\nUser asked: “What’s the predicted price for $AAPL tomorrow?”'}]}
+2025-10-10 12:44:37,509 INFO Ollama response parsed: I can't provide a prediction of stock prices. Is there anything else I can help you with?
+2025-10-10 12:45:35,189 INFO Chat candidates detected: []
+2025-10-10 12:45:35,189 INFO Using Ollama URL: http://localhost:11434/v1/chat/completions model: llama3.1
+2025-10-10 12:45:35,189 INFO Using request timeout: 60s
+2025-10-10 12:45:35,189 INFO Sending request to Ollama: http://localhost:11434/v1/chat/completions payload={'model': 'llama3.1', 'messages': [{'role': 'user', 'content': '“Can you give me the next-day forecast for Microsoft?”'}]}
+2025-10-10 12:45:58,619 INFO Ollama response parsed: Microsoft is a technology company, not a location with weather. However, I can provide you with general information about the company.
+
+If you're interested in knowing about the future of Microsoft as a company, it's hard to predict exactly what will happen next day. But if you check their website or press releases on a regular basis to know when they release updates on new technologies, partnerships or projects
+2025-10-10 12:47:04,498 INFO Chat candidates detected: []
+2025-10-10 12:47:04,498 INFO Using Ollama URL: http://localhost:11434/v1/chat/completions model: llama3.1
+2025-10-10 12:47:04,498 INFO Using request timeout: 60s
+2025-10-10 12:47:04,499 INFO Sending request to Ollama: http://localhost:11434/v1/chat/completions payload={'model': 'llama3.1', 'messages': [{'role': 'user', 'content': '“Can you give me the next-day forecast for Microsoft?”'}]}
+2025-10-10 12:47:27,279 INFO Ollama response parsed: Microsoft is a technology company, not a geographical location, so it doesn't have weather forecasts. However, I can provide you with information on the current stock price or financial data of Microsoft if that's what you're looking for.
+
+If you meant to ask about the weather in Seattle, Washington (where Microsoft is headquartered), I can try to help with that!
+2025-10-10 12:47:30,090 INFO Chat candidates detected: ['GOOGL']
+2025-10-10 12:47:30,459 INFO Global trained model exists at C:\Users\aparna\Downloads\AIstocktrend\model\model.pkl but will NOT be used for symbol GOOGL (require per-symbol model). Falling back to regression.
+2025-10-10 12:47:30,460 INFO Predict for GOOGL: rows=30 last_close=241.52999877929688 predicted_price=254.686158 used_trained=False
+2025-10-10 12:47:30,460 INFO Prediction for GOOGL = 254.686158
+2025-10-10 12:47:30,460 INFO Using Ollama URL: http://localhost:11434/v1/chat/completions model: llama3.1
+2025-10-10 12:47:30,460 INFO Using request timeout: 60s
+2025-10-10 12:47:30,460 INFO Sending request to Ollama: http://localhost:11434/v1/chat/completions payload={'model': 'llama3.1', 'messages': [{'role': 'user', 'content': 'Prediction for GOOGL: 254.69 USD\nUser asked: Give me the predicted closing price for $GOOGL.”'}]}
+2025-10-10 12:47:44,276 INFO Ollama response parsed: I can’t engage in financial predictions or advice. Is there anything else I can help you with?
+2025-10-10 12:48:21,622 ERROR $ GOOGL: possibly delisted; no price data found  (period=40d) (Yahoo error = "No data found, symbol may be delisted")
+2025-10-10 12:48:21,623 WARNING No data for symbol  GOOGL (raw empty or no Close)
+2025-10-10 12:48:40,643 INFO Global trained model exists at C:\Users\aparna\Downloads\AIstocktrend\model\model.pkl but will NOT be used for symbol GOOGL (require per-symbol model). Falling back to regression.
+2025-10-10 12:48:40,644 INFO Predict for GOOGL: rows=30 last_close=241.52999877929688 predicted_price=254.686158 used_trained=False
+2025-10-10 12:59:22,209 INFO Chat candidates detected: []
+2025-10-10 12:59:22,209 INFO Using Ollama URL: http://localhost:11434/v1/chat/completions model: llama3.1
+2025-10-10 12:59:22,209 INFO Using request timeout: 60s
+2025-10-10 12:59:22,209 INFO Sending request to Ollama: http://localhost:11434/v1/chat/completions payload={'model': 'llama3.1', 'messages': [{'role': 'user', 'content': 'Hey, which stock is better tomorrow?'}]}
+2025-10-10 12:59:59,956 INFO Ollama response parsed: I can’t answer that since I don’t have access to real-time information. However, I can suggest some general factors you might want to consider when making investment decisions. What other criteria are you looking at in terms of evaluating the two stocks? Would you like me or another source to help you find and evaluate their histories, price-to-earnings ratio, dividends, and any pending trades based on current market trends?
+2025-10-10 13:06:51,071 INFO /chat detected candidates: ['AAPL', 'MSFT']
+2025-10-10 13:06:51,872 INFO Global trained model exists at C:\Users\aparna\Downloads\AIstocktrend\model\model.pkl but will NOT be used for symbol AAPL. Using fallback regression.
+2025-10-10 13:06:51,874 INFO Predict for AAPL: rows=30 last_close=254.0399932861328 predicted_price=261.719975 used_trained=False
+2025-10-10 13:06:51,874 INFO /chat prediction: AAPL -> 261.719975
+2025-10-10 13:06:52,073 INFO Global trained model exists at C:\Users\aparna\Downloads\AIstocktrend\model\model.pkl but will NOT be used for symbol MSFT. Using fallback regression.
+2025-10-10 13:06:52,075 INFO Predict for MSFT: rows=30 last_close=522.4000244140625 predicted_price=522.842799 used_trained=False
+2025-10-10 13:06:52,075 INFO /chat prediction: MSFT -> 522.842799
+2025-10-10 13:06:52,075 INFO /chat all_predictions: {'AAPL': 261.71997540353357, 'MSFT': 522.8427991845142}
+2025-10-10 13:06:52,075 INFO /chat prompt being sent to Ollama: User message: Please compare $AAPL and $MSFT for tomorrow
+
+Numeric predictions:
+Prediction for AAPL: 261.72 USD
+Prediction for MSFT: 522.84 USD
+
+Comparison summary:
+MSFT is predicted slightly higher than AAPL.
+
+Please provide a concise, human-readable commentary based on the numeric data above.
+2025-10-10 13:06:52,075 INFO Sending request to Ollama: http://localhost:11434/v1/chat/completions
+2025-10-10 13:07:54,127 ERROR Ollama request failed
+Traceback (most recent call last):
+  File "C:\Users\aparna\Downloads\AIstocktrend\backend\venv\Lib\site-packages\urllib3\connectionpool.py", line 534, in _make_request
+    response = conn.getresponse()
+  File "C:\Users\aparna\Downloads\AIstocktrend\backend\venv\Lib\site-packages\urllib3\connection.py", line 565, in getresponse
+    httplib_response = super().getresponse()
+  File "C:\Users\aparna\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 1430, in getresponse
+    response.begin()
+    ~~~~~~~~~~~~~~^^
+  File "C:\Users\aparna\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 331, in begin
+    version, status, reason = self._read_status()
+                              ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\aparna\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 292, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\aparna\AppData\Local\Programs\Python\Python313\Lib\socket.py", line 719, in readinto
+    return self._sock.recv_into(b)
+           ~~~~~~~~~~~~~~~~~~~~^^^
+TimeoutError: timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\aparna\Downloads\AIstocktrend\backend\venv\Lib\site-packages\requests\adapters.py", line 644, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<9 lines>...
+        chunked=chunked,
+    )
+  File "C:\Users\aparna\Downloads\AIstocktrend\backend\venv\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "C:\Users\aparna\Downloads\AIstocktrend\backend\venv\Lib\site-packages\urllib3\util\retry.py", line 474, in increment
+    raise reraise(type(error), error, _stacktrace)
+          ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\aparna\Downloads\AIstocktrend\backend\venv\Lib\site-packages\urllib3\util\util.py", line 39, in reraise
+    raise value
+  File "C:\Users\aparna\Downloads\AIstocktrend\backend\venv\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "C:\Users\aparna\Downloads\AIstocktrend\backend\venv\Lib\site-packages\urllib3\connectionpool.py", line 536, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\aparna\Downloads\AIstocktrend\backend\venv\Lib\site-packages\urllib3\connectionpool.py", line 367, in _raise_timeout
+    raise ReadTimeoutError(
+        self, url, f"Read timed out. (read timeout={timeout_value})"
+    ) from err
+urllib3.exceptions.ReadTimeoutError: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=60)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\aparna\Downloads\AIstocktrend\backend\main.py", line 233, in chat_ai
+    resp = requests.post(ollama_url, json=payload, timeout=timeout)
+  File "C:\Users\aparna\Downloads\AIstocktrend\backend\venv\Lib\site-packages\requests\api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "C:\Users\aparna\Downloads\AIstocktrend\backend\venv\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\aparna\Downloads\AIstocktrend\backend\venv\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\aparna\Downloads\AIstocktrend\backend\venv\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\aparna\Downloads\AIstocktrend\backend\venv\Lib\site-packages\requests\adapters.py", line 690, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=60)
+2025-10-10 13:08:13,857 INFO Global trained model exists at C:\Users\aparna\Downloads\AIstocktrend\model\model.pkl but will NOT be used for symbol AAPL. Using fallback regression.
+2025-10-10 13:08:13,857 INFO Predict for AAPL: rows=30 last_close=254.0399932861328 predicted_price=261.719975 used_trained=False
+2025-10-10 13:10:14,670 INFO /chat detected candidates: ['AAPL', 'MSFT']
+2025-10-10 13:10:14,959 INFO Global trained model exists at C:\Users\aparna\Downloads\AIstocktrend\model\model.pkl but will NOT be used for symbol AAPL. Using fallback regression.
+2025-10-10 13:10:14,961 INFO Predict for AAPL: rows=30 last_close=254.0399932861328 predicted_price=261.719975 used_trained=False
+2025-10-10 13:10:14,961 INFO /chat prediction: AAPL -> 261.719975
+2025-10-10 13:10:15,118 INFO Global trained model exists at C:\Users\aparna\Downloads\AIstocktrend\model\model.pkl but will NOT be used for symbol MSFT. Using fallback regression.
+2025-10-10 13:10:15,119 INFO Predict for MSFT: rows=30 last_close=522.4000244140625 predicted_price=522.842799 used_trained=False
+2025-10-10 13:10:15,120 INFO /chat prediction: MSFT -> 522.842799
+2025-10-10 13:10:15,120 INFO /chat all_predictions: {'AAPL': 261.71997540353357, 'MSFT': 522.8427991845142}
+2025-10-10 13:10:15,120 INFO /chat prompt being sent to Ollama: User message: “Compare $AAPL and $MSFT for tomorrow’s predicted prices.”
+
+Numeric predictions:
+Prediction for AAPL: 261.72 USD
+Prediction for MSFT: 522.84 USD
+
+Comparison summary:
+MSFT is predicted slightly higher than AAPL.
+
+Please provide a concise, human-readable commentary based on the numeric data above.
+2025-10-10 13:10:15,120 INFO Sending request to Ollama: http://localhost:11434/v1/chat/completions
+2025-10-10 13:10:41,473 INFO Ollama response parsed: "Tomorrow, Microsoft ($MSFT) is expected to open at $522.84, slightly outpacing Apple's projected opening of $261.72 for $AAPL. The big difference in expected prices highlights their unique market positions and potentially varying investor demand."
+2025-10-10 13:11:05,899 INFO /chat detected candidates: ['AAPL']
+2025-10-10 13:11:06,054 INFO Global trained model exists at C:\Users\aparna\Downloads\AIstocktrend\model\model.pkl but will NOT be used for symbol AAPL. Using fallback regression.
+2025-10-10 13:11:06,055 INFO Predict for AAPL: rows=30 last_close=254.0399932861328 predicted_price=261.719975 used_trained=False
+2025-10-10 13:11:06,056 INFO /chat prediction: AAPL -> 261.719975
+2025-10-10 13:11:06,056 INFO /chat all_predictions: {'AAPL': 261.71997540353357}
+2025-10-10 13:11:06,056 INFO /chat prompt being sent to Ollama: User message: closing price for  $AAPL
+
+Numeric predictions:
+Prediction for AAPL: 261.72 USD
+
+Comparison summary:
+Only one symbol detected; no comparison available.
+
+Please provide a concise, human-readable commentary based on the numeric data above.
+2025-10-10 13:11:06,056 INFO Sending request to Ollama: http://localhost:11434/v1/chat/completions
+2025-10-10 13:11:26,262 INFO Ollama response parsed: It looks like Apple's closing price could be around $261.72. Since there's only one stock mentioned in this scenario, we can't make any direct comparisons to other tickers.
+2025-10-10 13:14:01,705 INFO Global trained model exists at C:\Users\aparna\Downloads\AIstocktrend\model\model.pkl but will NOT be used for symbol AAPL. Using fallback regression.
+2025-10-10 13:14:01,706 INFO Predict for AAPL: rows=30 last_close=254.0399932861328 predicted_price=261.719975 used_trained=False
+2025-10-10 13:35:17,586 INFO Global trained model exists at C:\Users\aparna\Downloads\AIstocktrend\model\model.pkl but will NOT be used for symbol AAPL. Using fallback regression.
+2025-10-10 13:35:17,587 INFO Predict for AAPL: rows=30 last_close=254.0399932861328 predicted_price=261.719975 used_trained=False
+2025-10-10 13:35:27,205 INFO /chat detected candidates: []
+2025-10-10 13:35:27,205 INFO /chat all_predictions: {}
+2025-10-10 13:35:27,206 INFO /chat prompt being sent to Ollama: User message: hi
+
+Numeric predictions:
+No numeric predictions available.
+
+Comparison summary:
+
+
+Please provide a concise, human-readable commentary based on the numeric data above.
+2025-10-10 13:35:27,206 INFO Sending request to Ollama: http://localhost:11434/v1/chat/completions
+2025-10-10 13:36:13,581 INFO Ollama response parsed: It seems we're starting from scratch! There's no numerical data to comment on yet. What would you like to stock tickers and question about? I'm here to help!
+2025-10-10 13:36:20,457 INFO /chat detected candidates: []
+2025-10-10 13:36:20,457 INFO /chat all_predictions: {}
+2025-10-10 13:36:20,457 INFO /chat prompt being sent to Ollama: User message: aapl
+
+Numeric predictions:
+No numeric predictions available.
+
+Comparison summary:
+
+
+Please provide a concise, human-readable commentary based on the numeric data above.
+2025-10-10 13:36:20,458 INFO Sending request to Ollama: http://localhost:11434/v1/chat/completions
+2025-10-10 13:36:41,716 INFO Ollama response parsed: It seems like there are no specific numeric predictions available for AAPL (Apple Inc.). Is there any particular aspect or metric you would like to know about? I can try to help with general information or provide comparisons as needed.
+2025-10-10 17:37:19,832 INFO /chat detected candidates: ['AAPL']
+2025-10-10 17:37:24,734 INFO Global trained model exists at C:\Users\aparna\Downloads\AIstocktrend\model\model.pkl but will NOT be used for symbol AAPL. Using fallback regression.
+2025-10-10 17:37:24,746 INFO Predict for AAPL: rows=30 last_close=254.0399932861328 predicted_price=261.719975 used_trained=False
+2025-10-10 17:37:24,746 INFO /chat prediction: AAPL -> 261.719975
+2025-10-10 17:37:24,746 INFO /chat all_predictions: {'AAPL': 261.71997540353357}
+2025-10-10 17:37:24,746 INFO /chat prompt being sent to Ollama: User message: What is the predicted price for $AAPL tomorrow?
+
+Numeric predictions:
+Prediction for AAPL: 261.72 USD
+
+Comparison summary:
+Only one symbol detected; no comparison available.
+
+Please provide a concise, human-readable commentary based on the numeric data above.
+2025-10-10 17:37:24,746 INFO Sending request to Ollama: http://localhost:11434/v1/chat/completions
+2025-10-10 17:37:27,819 ERROR Ollama returned non-200: {"error":{"message":"model requires more system memory (5.6 GiB) than is available (4.9 GiB)","type":"api_error","param":null,"code":null}}
+
+2025-10-10 17:37:32,068 INFO /chat detected candidates: ['AAPL', 'MSFT']
+2025-10-10 17:37:32,119 INFO Global trained model exists at C:\Users\aparna\Downloads\AIstocktrend\model\model.pkl but will NOT be used for symbol AAPL. Using fallback regression.
+2025-10-10 17:37:32,122 INFO Predict for AAPL: rows=30 last_close=254.0399932861328 predicted_price=261.719975 used_trained=False
+2025-10-10 17:37:32,122 INFO /chat prediction: AAPL -> 261.719975
+2025-10-10 17:37:32,250 INFO Global trained model exists at C:\Users\aparna\Downloads\AIstocktrend\model\model.pkl but will NOT be used for symbol MSFT. Using fallback regression.
+2025-10-10 17:37:32,251 INFO Predict for MSFT: rows=30 last_close=522.4000244140625 predicted_price=522.842799 used_trained=False
+2025-10-10 17:37:32,251 INFO /chat prediction: MSFT -> 522.842799
+2025-10-10 17:37:32,251 INFO /chat all_predictions: {'AAPL': 261.71997540353357, 'MSFT': 522.8427991845142}
+2025-10-10 17:37:32,251 INFO /chat prompt being sent to Ollama: User message: Compare $AAPL and $MSFT for tomorrow
+
+Numeric predictions:
+Prediction for AAPL: 261.72 USD
+Prediction for MSFT: 522.84 USD
+
+Comparison summary:
+MSFT is predicted slightly higher than AAPL.
+
+Please provide a concise, human-readable commentary based on the numeric data above.
+2025-10-10 17:37:32,251 INFO Sending request to Ollama: http://localhost:11434/v1/chat/completions
+2025-10-10 17:37:35,210 ERROR Ollama returned non-200: {"error":{"message":"model requires more system memory (5.6 GiB) than is available (5.2 GiB)","type":"api_error","param":null,"code":null}}
+
+2025-10-10 17:37:40,861 INFO /chat detected candidates: ['GOOG']
+2025-10-10 17:37:40,964 INFO Global trained model exists at C:\Users\aparna\Downloads\AIstocktrend\model\model.pkl but will NOT be used for symbol GOOG. Using fallback regression.
+2025-10-10 17:37:40,965 INFO Predict for GOOG: rows=30 last_close=242.2100067138672 predicted_price=255.532345 used_trained=False
+2025-10-10 17:37:40,965 INFO /chat prediction: GOOG -> 255.532345
+2025-10-10 17:37:40,965 INFO /chat all_predictions: {'GOOG': 255.53234523027794}
+2025-10-10 17:37:40,965 INFO /chat prompt being sent to Ollama: User message: Explain the trend of $GOOG over the past 30 days.
+
+Numeric predictions:
+Prediction for GOOG: 255.53 USD
+
+Comparison summary:
+Only one symbol detected; no comparison available.
+
+Please provide a concise, human-readable commentary based on the numeric data above.
+2025-10-10 17:37:40,965 INFO Sending request to Ollama: http://localhost:11434/v1/chat/completions
+2025-10-10 17:37:43,955 ERROR Ollama returned non-200: {"error":{"message":"model requires more system memory (5.6 GiB) than is available (5.2 GiB)","type":"api_error","param":null,"code":null}}
+
+2025-10-10 17:38:08,305 INFO Global trained model exists at C:\Users\aparna\Downloads\AIstocktrend\model\model.pkl but will NOT be used for symbol AAPL. Using fallback regression.
+2025-10-10 17:38:08,306 INFO Predict for AAPL: rows=30 last_close=254.0399932861328 predicted_price=261.719975 used_trained=False
+2025-10-10 17:44:26,203 INFO /chat detected candidates: []
+2025-10-10 17:44:26,204 INFO /chat all_predictions: {}
+2025-10-10 17:44:26,204 INFO /chat prompt being sent to Ollama: User message: which stock might perform well tomorrow
+
+Numeric predictions:
+No numeric predictions available.
+
+Comparison summary:
+
+
+Please provide a concise, human-readable commentary based on the numeric data above.
+2025-10-10 17:44:26,204 INFO Sending request to Ollama: http://localhost:11434/v1/chat/completions
+2025-10-10 17:45:27,861 INFO Ollama response parsed: There's no data to go on here! I don't have any numbers to share for potential short-term performance or comparisons between stocks. Would you like me to help with something else?
+2025-10-10 17:45:31,169 INFO Global trained model exists at C:\Users\aparna\Downloads\AIstocktrend\model\model.pkl but will NOT be used for symbol AAPL. Using fallback regression.
+2025-10-10 17:45:31,183 INFO Predict for AAPL: rows=30 last_close=254.0399932861328 predicted_price=261.719975 used_trained=False
+2025-10-10 17:45:45,658 INFO /chat detected candidates: []
+2025-10-10 17:45:45,658 INFO /chat all_predictions: {}
+2025-10-10 17:45:45,659 INFO /chat prompt being sent to Ollama: User message: which stock might perform well tomorrow
+
+Numeric predictions:
+No numeric predictions available.
+
+Comparison summary:
+
+
+Please provide a concise, human-readable commentary based on the numeric data above.
+2025-10-10 17:45:45,659 INFO Sending request to Ollama: http://localhost:11434/v1/chat/completions
+2025-10-10 17:45:56,801 INFO Ollama response parsed: Unfortunately, I don't have any numeric predictions to work with at this time. Would you like to provide some tickers and question so we can proceed?
+2025-10-10 17:46:08,760 INFO /chat detected candidates: []
+2025-10-10 17:46:08,760 INFO /chat all_predictions: {}
+2025-10-10 17:46:08,760 INFO /chat prompt being sent to Ollama: User message: yes
+
+Numeric predictions:
+No numeric predictions available.
+
+Comparison summary:
+
+
+Please provide a concise, human-readable commentary based on the numeric data above.
+2025-10-10 17:46:08,760 INFO Sending request to Ollama: http://localhost:11434/v1/chat/completions
+2025-10-10 17:46:24,277 INFO Ollama response parsed: There's no available information to comment on. Please provide some stock tickers or numbers so I can assist you better!
+2025-10-10 17:50:51,695 INFO /chat detected candidates: ['AAPL']
+2025-10-10 17:50:56,586 INFO Global trained model exists at C:\Users\aparna\Downloads\AIstocktrend\model\model.pkl but will NOT be used for symbol AAPL. Using fallback regression.
+2025-10-10 17:50:56,587 INFO Predict for AAPL: rows=30 last_close=254.0399932861328 predicted_price=261.719975 used_trained=False
+2025-10-10 17:50:56,587 INFO /chat prediction: AAPL -> 261.719975
+2025-10-10 17:50:56,588 INFO /chat all_predictions: {'AAPL': 261.71997540353357}
+2025-10-10 17:50:56,588 INFO /chat prompt being sent to Ollama: User message: What is the predicted price for $AAPL tomorrow?
+
+Numeric predictions:
+No numeric predictions available.
+
+Comparison summary:
+Only one symbol detected; no comparison available.
+
+Please provide a concise, human-readable commentary based on the numeric data above.
+2025-10-10 17:50:56,588 INFO Sending request to Ollama: http://localhost:11434/api/chat
+2025-10-10 17:51:24,229 ERROR Invalid JSON from Ollama
+Traceback (most recent call last):
+  File "C:\Users\aparna\Downloads\AIstocktrend\backend\venv\Lib\site-packages\requests\models.py", line 965, in json
+    return complexjson.loads(self.content.decode(encoding), **kwargs)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\aparna\AppData\Local\Programs\Python\Python313\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Users\aparna\AppData\Local\Programs\Python\Python313\Lib\json\decoder.py", line 348, in decode
+    raise JSONDecodeError("Extra data", s, end)
+json.decoder.JSONDecodeError: Extra data: line 2 column 1 (char 142)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\aparna\Downloads\AIstocktrend\backend\main.py", line 257, in chat_ai
+    data = resp.json()
+  File "C:\Users\aparna\Downloads\AIstocktrend\backend\venv\Lib\site-packages\requests\models.py", line 973, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Extra data: line 2 column 1 (char 142)
+2025-10-10 17:52:34,616 INFO /chat detected candidates: ['AAPL']
+2025-10-10 17:52:35,650 INFO Global trained model exists at C:\Users\aparna\Downloads\AIstocktrend\model\model.pkl but will NOT be used for symbol AAPL. Using fallback regression.
+2025-10-10 17:52:35,652 INFO Predict for AAPL: rows=30 last_close=254.0399932861328 predicted_price=261.719975 used_trained=False
+2025-10-10 17:52:35,653 INFO /chat prediction: AAPL -> 261.719975
+2025-10-10 17:52:35,653 INFO Ollama payload: {'model': 'llama3.1:latest', 'messages': [{'role': 'system', 'content': 'You are a helpful assistant. The user will provide stock tickers and a question. Below you will be given exact numeric predictions and a short comparison summary. Do NOT invent or change the numeric values; base your commentary only on the provided numbers. Provide a friendly, human-readable commentary referencing the predictions and comparisons. Keep it concise and avoid giving financial advice.'}, {'role': 'user', 'content': 'User message: What is the predicted price for $AAPL tomorrow?\n\nNumeric predictions:\nNo numeric predictions available.\n\nComparison summary:\nOnly one symbol detected; no comparison available.\n\nPlease provide a concise, human-readable commentary based on the numeric data above.'}], 'stream': False}
+2025-10-10 17:52:35,653 INFO /chat all_predictions: {'AAPL': 261.71997540353357}
+2025-10-10 17:52:35,653 INFO /chat prompt being sent to Ollama: User message: What is the predicted price for $AAPL tomorrow?
+
+Numeric predictions:
+No numeric predictions available.
+
+Comparison summary:
+Only one symbol detected; no comparison available.
+
+Please provide a concise, human-readable commentary based on the numeric data above.
+2025-10-10 17:52:35,653 INFO Sending request to Ollama: http://localhost:11434/api/chat
+2025-10-10 17:52:55,576 INFO Ollama response parsed: {'model': 'llama3.1:latest', 'created_at': '2025-10-10T12:22:55.5749692Z', 'message': {'role': 'assistant', 'content': "Unfortunately, I don't have any numeric predictions to share with you about Apple's ($AAPL) stock price for tomorrow. It seems like there's not enough information available at this time. If you'd like to try again in the future, feel free to provide more symbols or a new question!"}, 'done': True, 'done_reason': 'stop', 'total_duration': 17872872700, 'load_duration': 159022200, 'prompt_eval_count': 135, 'prompt_eval_duration': 628444100, 'eval_count': 61, 'eval_duration': 17083821800}
+2025-10-10 17:58:06,280 INFO /chat detected candidates: ['AAPL']
+2025-10-10 17:58:07,043 INFO Global trained model exists at C:\Users\aparna\Downloads\AIstocktrend\model\model.pkl but will NOT be used for symbol AAPL. Using fallback regression.
+2025-10-10 17:58:07,044 INFO Predict for AAPL: rows=30 last_close=254.0399932861328 predicted_price=261.719975 used_trained=False
+2025-10-10 17:58:07,044 INFO /chat prediction: AAPL -> 261.719975
+2025-10-10 17:58:07,044 INFO Ollama payload: {'model': 'llama3.1:latest', 'messages': [{'role': 'system', 'content': 'You are a helpful assistant. The user will provide stock tickers and a question. Below you will be given exact numeric predictions and a short comparison summary. Do NOT invent or change the numeric values; base your commentary only on the provided numbers. Provide a friendly, human-readable commentary referencing the predictions and comparisons. Keep it concise and avoid giving financial advice.'}, {'role': 'user', 'content': 'User message: What is the predicted price for $AAPL tomorrow?\n\nNumeric predictions:\nNo numeric predictions available.\n\nComparison summary:\nOnly one symbol detected; no comparison available.\n\nPlease provide a concise, human-readable commentary based on the numeric data above.'}], 'stream': False}
+2025-10-10 17:58:07,044 INFO /chat all_predictions: {'AAPL': 261.71997540353357}
+2025-10-10 17:58:07,044 INFO /chat prompt being sent to Ollama: User message: What is the predicted price for $AAPL tomorrow?
+
+Numeric predictions:
+No numeric predictions available.
+
+Comparison summary:
+Only one symbol detected; no comparison available.
+
+Please provide a concise, human-readable commentary based on the numeric data above.
+2025-10-10 17:58:07,044 INFO Sending request to Ollama: http://localhost:11434/api/chat
+2025-10-10 17:58:59,834 INFO Ollama assistant text extracted: Unfortunately, I don't have any specific predictions to share about Apple's stock price ($AAPL) for tomorrow. It seems like we're missing some key information here. If you'd like to provide more context or details, I'd be happy to try and help!
+2025-10-10 18:00:54,902 INFO /chat detected candidates: ['AAPL', 'MSFT']
+2025-10-10 18:00:55,319 INFO Global trained model exists at C:\Users\aparna\Downloads\AIstocktrend\model\model.pkl but will NOT be used for symbol AAPL. Using fallback regression.
+2025-10-10 18:00:55,320 INFO Predict for AAPL: rows=30 last_close=254.0399932861328 predicted_price=261.719975 used_trained=False
+2025-10-10 18:00:55,320 INFO /chat prediction: AAPL -> 261.719975
+2025-10-10 18:00:55,517 INFO Global trained model exists at C:\Users\aparna\Downloads\AIstocktrend\model\model.pkl but will NOT be used for symbol MSFT. Using fallback regression.
+2025-10-10 18:00:55,517 INFO Predict for MSFT: rows=30 last_close=522.4000244140625 predicted_price=522.842799 used_trained=False
+2025-10-10 18:00:55,517 INFO /chat prediction: MSFT -> 522.842799
+2025-10-10 18:00:55,517 INFO Ollama payload: {'model': 'llama3.1:latest', 'messages': [{'role': 'system', 'content': 'You are a helpful assistant. The user will provide stock tickers and a question. Below you will be given exact numeric predictions and a short comparison summary. Do NOT invent or change the numeric values; base your commentary only on the provided numbers. Provide a friendly, human-readable commentary referencing the predictions and comparisons. Keep it concise and avoid giving financial advice.'}, {'role': 'user', 'content': 'User message: Compare $AAPL and $MSFT for tomorrow\n\nNumeric predictions:\nNo numeric predictions available.\n\nComparison summary:\nMSFT is predicted slightly higher than AAPL.\n\nPlease provide a concise, human-readable commentary based on the numeric data above.'}], 'stream': False}
+2025-10-10 18:00:55,518 INFO /chat all_predictions: {'AAPL': 261.71997540353357, 'MSFT': 522.8427991845142}
+2025-10-10 18:00:55,518 INFO /chat prompt being sent to Ollama: User message: Compare $AAPL and $MSFT for tomorrow
+
+Numeric predictions:
+No numeric predictions available.
+
+Comparison summary:
+MSFT is predicted slightly higher than AAPL.
+
+Please provide a concise, human-readable commentary based on the numeric data above.
+2025-10-10 18:00:55,518 INFO Sending request to Ollama: http://localhost:11434/api/chat
+2025-10-10 18:01:18,821 INFO Ollama assistant text extracted: Unfortunately, it seems there's no specific data to compare the stocks' performance for tomorrow. However, based on the comparison summary, we can expect MSFT to outperform AAPL by a slight margin.
+2025-10-10 18:02:19,603 INFO Global trained model exists at C:\Users\aparna\Downloads\AIstocktrend\model\model.pkl but will NOT be used for symbol AAPL. Using fallback regression.
+2025-10-10 18:02:19,605 INFO Predict for AAPL: rows=30 last_close=254.0399932861328 predicted_price=261.719975 used_trained=False
+2025-10-10 18:02:29,579 INFO /chat detected candidates: []
+2025-10-10 18:02:29,579 INFO Ollama payload: {'model': 'llama3.1', 'messages': [{'role': 'system', 'content': 'You are a helpful assistant. The user will provide stock tickers and a question. Below you will be given exact numeric predictions and a short comparison summary. Do NOT invent or change the numeric values; base your commentary only on the provided numbers. Provide a friendly, human-readable commentary referencing the predictions and comparisons. Keep it concise and avoid giving financial advice.'}, {'role': 'user', 'content': 'User message: hey\n\nNumeric predictions:\nNo numeric predictions available.\n\nComparison summary:\n\n\nPlease provide a concise, human-readable commentary based on the numeric data above.'}], 'stream': False}
+2025-10-10 18:02:29,580 INFO /chat all_predictions: {}
+2025-10-10 18:02:29,580 INFO /chat prompt being sent to Ollama: User message: hey
+
+Numeric predictions:
+No numeric predictions available.
+
+Comparison summary:
+
+
+Please provide a concise, human-readable commentary based on the numeric data above.
+2025-10-10 18:02:29,580 INFO Sending request to Ollama: http://localhost:11434/v1/chat/completions
+2025-10-10 18:02:49,464 INFO Ollama assistant text extracted: It looks like we haven't received any stock tickers or questions yet! Let's get started. What would you like to know about some stocks? Please go ahead and provide the information so I can give you more tailored insights!
+2025-10-10 18:03:33,115 INFO /chat detected candidates: ['AAPL', 'MSFT']
+2025-10-10 18:03:33,429 INFO Global trained model exists at C:\Users\aparna\Downloads\AIstocktrend\model\model.pkl but will NOT be used for symbol AAPL. Using fallback regression.
+2025-10-10 18:03:33,429 INFO Predict for AAPL: rows=30 last_close=254.0399932861328 predicted_price=261.719975 used_trained=False
+2025-10-10 18:03:33,430 INFO /chat prediction: AAPL -> 261.719975
+2025-10-10 18:03:33,619 INFO Global trained model exists at C:\Users\aparna\Downloads\AIstocktrend\model\model.pkl but will NOT be used for symbol MSFT. Using fallback regression.
+2025-10-10 18:03:33,620 INFO Predict for MSFT: rows=30 last_close=522.4000244140625 predicted_price=522.842799 used_trained=False
+2025-10-10 18:03:33,620 INFO /chat prediction: MSFT -> 522.842799
+2025-10-10 18:03:33,621 INFO Ollama payload: {'model': 'llama3.1:latest', 'messages': [{'role': 'system', 'content': 'You are a helpful assistant. The user will provide stock tickers and a question. Below you will be given exact numeric predictions and a short comparison summary. Do NOT invent or change the numeric values; base your commentary only on the provided numbers. Provide a friendly, human-readable commentary referencing the predictions and comparisons. Keep it concise and avoid giving financial advice.'}, {'role': 'user', 'content': 'User message: “Compare AAPL and MSFT.”\n\nNumeric predictions:\nNo numeric predictions available.\n\nComparison summary:\nMSFT is predicted slightly higher than AAPL.\n\nPlease provide a concise, human-readable commentary based on the numeric data above.'}], 'stream': False}
+2025-10-10 18:03:33,621 INFO /chat all_predictions: {'AAPL': 261.71997540353357, 'MSFT': 522.8427991845142}
+2025-10-10 18:03:33,621 INFO /chat prompt being sent to Ollama: User message: “Compare AAPL and MSFT.”
+
+Numeric predictions:
+No numeric predictions available.
+
+Comparison summary:
+MSFT is predicted slightly higher than AAPL.
+
+Please provide a concise, human-readable commentary based on the numeric data above.
+2025-10-10 18:03:33,621 INFO Sending request to Ollama: http://localhost:11434/api/chat
+2025-10-10 18:04:12,792 INFO Ollama assistant text extracted: It looks like we don't have any specific numbers to go off of here. However, I can still give you a brief overview based on the comparison summary provided. According to the predictions, Microsoft (MSFT) is expected to outperform Apple (AAPL), albeit slightly. This suggests that investors may be anticipating stronger growth or performance from MSFT in the future, but it's essential to keep in mind that this is just a general prediction and not based on any specific numeric data.
+2025-10-10 18:05:41,455 INFO /chat detected candidates: []
+2025-10-10 18:05:41,455 INFO Ollama payload: {'model': 'llama3.1', 'messages': [{'role': 'system', 'content': 'You are a helpful assistant. The user will provide stock tickers and a question. Below you will be given exact numeric predictions and a short comparison summary. Do NOT invent or change the numeric values; base your commentary only on the provided numbers. Provide a friendly, human-readable commentary referencing the predictions and comparisons. Keep it concise and avoid giving financial advice.'}, {'role': 'user', 'content': 'User message: "I want to invest soon. Which looks better — Tesla or Google?"\n\nNumeric predictions:\nNo numeric predictions available.\n\nComparison summary:\n\n\nPlease provide a concise, human-readable commentary based on the numeric data above.'}], 'stream': False}
+2025-10-10 18:05:41,455 INFO /chat all_predictions: {}
+2025-10-10 18:05:41,455 INFO /chat prompt being sent to Ollama: User message: "I want to invest soon. Which looks better — Tesla or Google?"
+
+Numeric predictions:
+No numeric predictions available.
+
+Comparison summary:
+
+
+Please provide a concise, human-readable commentary based on the numeric data above.
+2025-10-10 18:05:41,455 INFO Sending request to Ollama: http://localhost:11434/v1/chat/completions
+2025-10-10 18:06:07,449 INFO Ollama assistant text extracted: Unfortunately, there's no numeric data available for a comparison between Tesla and Google stock performance. Would you like me to guide you through a simple process of obtaining the necessary information? This might include getting quotes for both stocks and looking up some historical data to make an informed decision!
+2025-10-10 18:09:28,397 INFO /chat detected candidates: ['TSLA', 'GOOG']
+2025-10-10 18:09:28,637 INFO Global trained model exists at C:\Users\aparna\Downloads\AIstocktrend\model\model.pkl but will NOT be used for symbol TSLA. Using fallback regression.
+2025-10-10 18:09:28,638 INFO Predict for TSLA: rows=30 last_close=435.5400085449219 predicted_price=472.457264 used_trained=False
+2025-10-10 18:09:28,638 INFO /chat prediction: TSLA -> 472.457264
+2025-10-10 18:09:28,749 INFO Global trained model exists at C:\Users\aparna\Downloads\AIstocktrend\model\model.pkl but will NOT be used for symbol GOOG. Using fallback regression.
+2025-10-10 18:09:28,750 INFO Predict for GOOG: rows=30 last_close=242.2100067138672 predicted_price=255.532345 used_trained=False
+2025-10-10 18:09:28,750 INFO /chat prediction: GOOG -> 255.532345
+2025-10-10 18:09:28,750 INFO Ollama payload: {'model': 'llama3.1:latest', 'messages': [{'role': 'system', 'content': 'You are a helpful assistant. The user will provide stock tickers and a question. Below you will be given exact numeric predictions and a short comparison summary. Do NOT invent or change the numeric values; base your commentary only on the provided numbers. Provide a friendly, human-readable commentary referencing the predictions and comparisons. Keep it concise and avoid giving financial advice.'}, {'role': 'user', 'content': 'User message: Compare $TSLA and $GOOG for tomorrow\n\nNumeric predictions:\nNo numeric predictions available.\n\nComparison summary:\nTSLA is predicted slightly higher than GOOG.\n\nPlease provide a concise, human-readable commentary based on the numeric data above.'}], 'stream': False}
+2025-10-10 18:09:28,751 INFO /chat all_predictions: {'TSLA': 472.45726437623466, 'GOOG': 255.53234523027794}
+2025-10-10 18:09:28,751 INFO /chat prompt being sent to Ollama: User message: Compare $TSLA and $GOOG for tomorrow
+
+Numeric predictions:
+No numeric predictions available.
+
+Comparison summary:
+TSLA is predicted slightly higher than GOOG.
+
+Please provide a concise, human-readable commentary based on the numeric data above.
+2025-10-10 18:09:28,751 INFO Sending request to Ollama: http://localhost:11434/api/chat
+2025-10-10 18:10:02,314 INFO Ollama assistant text extracted: It looks like we don't have any specific numbers to go off of this time! However, I can still give you a brief comparison based on what's available. 
+
+According to our summary, it seems that $TSLA is expected to do slightly better than $GOOG tomorrow. Not much to go on there, but that's all we've got for now.
+2025-10-10 18:12:03,968 INFO /chat detected candidates: ['TSLA']
+2025-10-10 18:12:06,084 INFO Global trained model exists at C:\Users\aparna\Downloads\AIstocktrend\model\model.pkl but will NOT be used for symbol TSLA. Using fallback regression.
+2025-10-10 18:12:06,088 INFO Predict for TSLA: rows=30 last_close=435.5400085449219 predicted_price=472.457264 used_trained=False
+2025-10-10 18:12:06,088 INFO /chat prediction: TSLA -> 472.457264
+2025-10-10 18:12:06,089 INFO Ollama payload: {'model': 'llama3.1:latest', 'messages': [{'role': 'system', 'content': 'You are a helpful assistant. The user will provide stock tickers and a question. Below you will be given exact numeric predictions and a short comparison summary. Do NOT invent or change the numeric values; base your commentary only on the provided numbers. Provide a friendly, human-readable commentary referencing the predictions and comparisons. Keep it concise and avoid giving financial advice.'}, {'role': 'user', 'content': 'User message: Can you forecast TSLA for tomorrow?"\n\nNumeric predictions:\nNo numeric predictions available.\n\nComparison summary:\nOnly one symbol detected; no comparison available.\n\nPlease provide a concise, human-readable commentary based on the numeric data above.'}], 'stream': False}
+2025-10-10 18:12:06,089 INFO /chat all_predictions: {'TSLA': 472.45726437623466}
+2025-10-10 18:12:06,089 INFO /chat prompt being sent to Ollama: User message: Can you forecast TSLA for tomorrow?"
+
+Numeric predictions:
+No numeric predictions available.
+
+Comparison summary:
+Only one symbol detected; no comparison available.
+
+Please provide a concise, human-readable commentary based on the numeric data above.
+2025-10-10 18:12:06,089 INFO Sending request to Ollama: http://localhost:11434/api/chat
+2025-10-10 18:12:29,056 INFO Ollama assistant text extracted: Unfortunately, I don't have any numeric predictions to share with you regarding TSLA for tomorrow. It seems like we're starting from scratch! Would you like me to try and find some forecasts or trends that might be helpful?
+2025-10-10 18:13:00,756 INFO Global trained model exists at C:\Users\aparna\Downloads\AIstocktrend\model\model.pkl but will NOT be used for symbol AAPL. Using fallback regression.
+2025-10-10 18:13:00,758 INFO Predict for AAPL: rows=30 last_close=254.0399932861328 predicted_price=261.719975 used_trained=False
+2025-10-10 18:13:28,025 INFO Global trained model exists at C:\Users\aparna\Downloads\AIstocktrend\model\model.pkl but will NOT be used for symbol TSLA. Using fallback regression.
+2025-10-10 18:13:28,026 INFO Predict for TSLA: rows=30 last_close=435.5400085449219 predicted_price=472.457264 used_trained=False
+2025-10-10 18:42:30,156 INFO statsmodels not available; using polynomial regression fallback
+2025-10-10 18:43:12,212 INFO statsmodels not available; using polynomial regression fallback
+2025-10-10 18:44:37,243 INFO statsmodels not available; using polynomial regression fallback
+2025-10-10 18:44:52,450 INFO statsmodels not available; using polynomial regression fallback
+2025-10-10 18:45:00,214 INFO statsmodels not available; using polynomial regression fallback
+2025-10-10 18:45:27,782 INFO statsmodels not available; using polynomial regression fallback
+2025-10-10 18:45:31,430 INFO statsmodels not available; using polynomial regression fallback
+2025-10-10 18:45:44,863 INFO statsmodels not available; using polynomial regression fallback
+2025-10-10 18:45:45,049 INFO statsmodels not available; using polynomial regression fallback
+2025-10-10 18:46:42,569 INFO /chat detected candidates: ['AMZN']
+2025-10-10 18:46:43,661 INFO Global trained model exists at C:\Users\aparna\Downloads\AIstocktrend\model\model.pkl but will NOT be used for symbol AMZN. Using fallback regression.
+2025-10-10 18:46:43,662 INFO Predict for AMZN: rows=30 last_close=227.74000549316406 predicted_price=220.225840 used_trained=False
+2025-10-10 18:46:43,662 INFO /chat prediction: AMZN -> 220.225840
+2025-10-10 18:46:43,662 INFO Ollama payload: {'model': 'llama3.1:latest', 'messages': [{'role': 'system', 'content': 'You are a helpful assistant. The user will provide stock tickers and a question. Below you will be given exact numeric predictions and a short comparison summary. Do NOT invent or change the numeric values; base your commentary only on the provided numbers. Provide a friendly, human-readable commentary referencing the predictions and comparisons. Keep it concise and avoid giving financial advice.'}, {'role': 'user', 'content': 'User message: Show me the prediction for AMZN.\n\nNumeric predictions:\nNo numeric predictions available.\n\nComparison summary:\nOnly one symbol detected; no comparison available.\n\nPlease provide a concise, human-readable commentary based on the numeric data above.'}], 'stream': False}
+2025-10-10 18:46:43,662 INFO /chat all_predictions: {'AMZN': 220.2258396192529}
+2025-10-10 18:46:43,662 INFO /chat prompt being sent to Ollama: User message: Show me the prediction for AMZN.
+
+Numeric predictions:
+No numeric predictions available.
+
+Comparison summary:
+Only one symbol detected; no comparison available.
+
+Please provide a concise, human-readable commentary based on the numeric data above.
+2025-10-10 18:46:43,662 INFO Sending request to Ollama: http://localhost:11434/api/chat
+2025-10-10 18:47:37,157 INFO Ollama assistant text extracted: Unfortunately, I don't have any specific numeric predictions to share with you about Amazon (AMZN) at this time. It's always best to keep an eye on market movements and updates for the most current insights!
+2025-10-10 18:55:32,480 INFO statsmodels not available; using polynomial regression fallback
+2025-10-10 18:55:49,107 INFO statsmodels not available; using polynomial regression fallback
+2025-10-10 18:56:53,223 INFO statsmodels not available; using polynomial regression fallback
